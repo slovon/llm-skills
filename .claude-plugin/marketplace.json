@@ -1,0 +1,21 @@
+{
+  "name": "llm-skills",
+  "owner": {
+    "name": "Gregor Jeromen"
+  },
+  "metadata": {
+    "description": "A collection of Agent Skills for Claude and other LLM agents.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "six-hats-facilitator",
+      "description": "Facilitate a Six Thinking Hats session as Blue Hat only: pick a hat sequence for the problem, then guide the user hat by hat while they supply all content.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/six-hats-facilitator"
+      ]
+    }
+  ]
+}
